@@ -2,6 +2,7 @@ import discord
 import random
 client = discord.Client()
 turnTakers = []
+# The file "token.txt" should contain only the token for the discord bot
 tokenFile = open("token.txt", "r")
 token = tokenFile.read()
 @client.event
